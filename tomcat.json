@@ -1,0 +1,30 @@
+{
+  "tomcat": {
+    "environments": {
+      "dev": {
+        "app_name": "TomcatAppDev",
+        "port": 8080,
+        "tomcat_version": 8,
+        "java_version": 9
+      },
+      "qat": {
+        "app_name": "TomcatAppQAT",
+        "port": 8181,
+        "tomcat_version": 8,
+        "java_version": 9
+      },
+      "prd": {
+        "app_name": "TomcatAppPRD",
+        "port": 8282,
+        "tomcat_version": 8,
+        "java_version": 9
+      },
+      "dr": {
+        "app_name": "TomcatAppDR",
+        "port": 8383,
+        "tomcat_version": 8,
+        "java_version": 9
+      }
+    }
+  }
+}
